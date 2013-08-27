@@ -1,0 +1,58 @@
+.BG{
+    width: 1280px;
+	height: 680px;
+	background-image: url(LampWhite.jpg);
+	
+}
+.login{
+	position:relative;
+	top: 50px;
+	width: 370px;
+	height: 290px;
+	left: 770px;
+	
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 7px 3px 2px rgba(1, 0, 0, .1);
+}
+.formlogin{
+	position: absolute;
+	width: 370px;
+	height: 290px;
+
+	border-radius: 3px;
+	border: 1px solid #0000;
+	box-shadow: 7px 3px 2px rgba(1, 0, 0, .1);
+}
+input[type=password]{
+	margin: 35px;
+    margin-top: 30px;
+    margin-right: 1px;
+    width: 220px;
+    height: 35px;
+}
+input[type=email]{
+
+    margin-top: 15px;
+	margin-right: 10px;
+    margin-left: 37px;
+    width: 220px;
+    height: 30px;
+}
+input[type=submit]{
+	position: absolute;
+	top: 85%;
+	right: 50px;
+
+}
+input[value=Cadastre-se]{
+	position: absolute;
+	top: 85%;
+	right: 65%;
+}
+label{
+color: red;
+margin-left: -2%;
+
+}
+
